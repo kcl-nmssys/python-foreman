@@ -2,19 +2,17 @@
 from setuptools import setup
 
 PACKAGE_NAME = 'python-foreman'
-URL = 'https://github.com/david-caro/python-foreman'
+URL = 'https://github.com/kcl-nmssys/python-foreman'
 
 
 if __name__ == '__main__':
     setup(
-        autosemver=True,
         install_requires=[
-            'autosemver',
             'requests',
             'six',
         ],
-        setup_requires=['autosemver'],
         name=PACKAGE_NAME,
+        version='0.3.4',
         include_package_data=True,
         packages=['foreman'],
         description=(
