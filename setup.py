@@ -12,7 +12,7 @@ if __name__ == '__main__':
             'six',
         ],
         name=PACKAGE_NAME,
-        version='0.3.4',
+        version='0.3.5',
         include_package_data=True,
         packages=['foreman'],
         description=(
